@@ -2,14 +2,14 @@
   font-size: 30pt;
   text-align: center;
   font-family: 'Varela Round', sans-serif;
-  color: #ffae00;
+  color: #ffae00 !important;
 }
 
 .text {
   font-size: 15pt;
   text-align: center;
   font-family: 'Varela Round', sans-serif;
-  color: #ffae00;
+  color: #ffae00 !important;
 }
 
 .logo {
