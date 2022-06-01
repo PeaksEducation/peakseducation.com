@@ -2,12 +2,14 @@
   font-size: 50pt;
   text-align: center;
   font-family: 'Varela Round', sans-serif;
+  z-index:-5;
 }
 
 .text {
   font-size: 15pt;
   text-align: center;
   font-family: 'Varela Round', sans-serif;
+  z-index:0;
 }
 
 .image {
@@ -18,4 +20,5 @@
 
 .logo {
   text-align: center;
+  z-index:-5;
 }
