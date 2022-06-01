@@ -10,6 +10,12 @@
   font-family: 'Varela Round', sans-serif;
 }
 
+.image {
+  text-align: center;
+  z-index:-5;
+  position: absolute;
+}
+
 .logo {
   text-align: center;
 }
