@@ -1,0 +1,1770 @@
+/**
+* Template Name: Squadfree - v4.7.0
+* Template URL: https://bootstrapmade.com/squadfree-free-bootstrap-template-creative/
+* Author: BootstrapMade.com
+* License: https://bootstrapmade.com/license/
+*/
+
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
+body {
+  font-family: "Open Sans", sans-serif;
+  color: #444444;
+}
+
+a {
+  text-decoration: none;
+  color: #67b0d1;
+}
+
+a:hover {
+  color: #8ec4dd;
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Varela Round', sans-serif;
+}
+
+#main {
+  margin-top: 90px;
+}
+
+
+/* .buttonWrap {
+	z-index: 1;
+	position: relative;
+	width: 143px;
+	height: 42px;
+}
+            
+.particleButton {
+	z-index: 1;
+	color: var(--buttonFontColor);
+	padding: 0em;
+	font-size: var(--buttonFontSize);
+	position: absolute;
+
+  left: 65%;  
+  
+
+	background-color: unset;
+	background: var(--buttonColor0);
+	pointer-events: all;
+	cursor: pointer;
+	border-radius: 50%;
+	border-width: 0px;
+	box-sizing: border-box;
+	transition: box-shadow ease-out 0.3s, transform 0.1s ease-in;
+	box-shadow: 0px 0px 0px 5px var(--buttonColor2),
+		0px 0px 0px 9px var(--buttonColor1),
+		inset 0px 0px 0px 0px var(--buttonColor2);
+}
+.particleButton:hover:not(:active) {
+	transition: 0.1s ease-in-out all;
+	box-shadow: 0px 0px 0px 8px var(--buttonColor2),
+		0px 0px 0px 14px var(--buttonColor1),
+		inset 0px 0px 0px 0px var(--buttonColor2);
+  background-image: linear-gradient(to right top, #1673ff, #0083ff, #0092fd, #019ff8, #3cabf2);
+  color: #fff;
+
+}
+.particles {
+	z-index: -1;
+	background: none !important;
+	pointer-events: none;
+	cursor: pointer;
+	box-shadow: none;
+}
+.particles::after {
+	position: absolute;
+	content: "";
+	left: -105px;
+	top: -105px;
+	min-width: 300px;
+	min-height: 300px;
+	pointer-events: none;
+	transition: background-size ease-in-out 0.5s,
+		background-position ease-in-out 0.5s;
+	background-repeat: no-repeat;
+	overflow: hidden;
+}
+
+.particleButton:active {
+	transition: box-shadow ease-out 0.1s, background-size ease-in-out 0.1s,
+		background-position ease-in-out 0.1s;
+	box-shadow: 0px 0px 0px 0px var(--buttonColor2),
+		0px 0px 0px 5px var(--buttonColor1),
+		inset 0px 0px 0px 5px var(--buttonColor2);
+
+}
+.particleButton:active ~ .particles::after {
+	animation: none;
+	background-size: 0;
+}
+
+.theButton.animated::after { 
+  animation: theButtonAnimation linear 12.8s forwards;
+  background-image: 
+      radial-gradient(circle, rgba(58.99999999999999, 154.99999999999991, 250, 1) 45%, transparent 45%),
+      radial-gradient(circle, rgba(58.99999999999999, 154.99999999999991, 250, 1) 45%, transparent 45%),
+      radial-gradient(circle, rgba(58.99999999999999, 154.99999999999991, 250, 1) 45%, transparent 45%),
+      radial-gradient(circle, rgba(58.99999999999999, 154.99999999999991, 250, 1) 45%, transparent 45%),
+      radial-gradient(circle, rgba(58.99999999999999, 154.99999999999991, 250, 1) 45%, transparent 45%),
+      radial-gradient(circle, rgba(58.99999999999999, 154.99999999999991, 250, 1) 45%, transparent 45%),
+      radial-gradient(circle, rgba(58.99999999999999, 154.99999999999991, 250, 1) 45%, transparent 45%),
+      radial-gradient(circle, rgba(58.99999999999999, 154.99999999999991, 250, 1) 45%, transparent 45%),
+      radial-gradient(circle, rgba(58.99999999999999, 154.99999999999991, 250, 1) 45%, transparent 45%),
+      radial-gradient(circle, rgba(58.99999999999999, 154.99999999999991, 250, 1) 45%, transparent 45%),
+      radial-gradient(circle, rgba(58.99999999999999, 154.99999999999991, 250, 1) 45%, transparent 45%),
+      radial-gradient(circle, rgba(58.99999999999999, 154.99999999999991, 250, 1) 45%, transparent 45%),
+      radial-gradient(circle, rgba(58.99999999999999, 154.99999999999991, 250, 1) 45%, transparent 45%),
+      radial-gradient(circle, rgba(58.99999999999999, 154.99999999999991, 250, 1) 45%, transparent 45%),
+      radial-gradient(circle, rgba(58.99999999999999, 154.99999999999991, 250, 1) 45%, transparent 45%),
+      radial-gradient(circle, rgba(58.99999999999999, 154.99999999999991, 250, 1) 45%, transparent 45%),
+      radial-gradient(circle, rgba(58.99999999999999, 154.99999999999991, 250, 1) 45%, transparent 45%),
+      radial-gradient(circle, rgba(58.99999999999999, 154.99999999999991, 250, 1) 45%, transparent 45%),
+      radial-gradient(circle, rgba(58.99999999999999, 154.99999999999991, 250, 1) 45%, transparent 45%),
+      radial-gradient(circle, rgba(58.99999999999999, 154.99999999999991, 250, 1) 45%, transparent 45%),
+      radial-gradient(circle, rgba(58.99999999999999, 154.99999999999991, 250, 1) 45%, transparent 45%),
+      radial-gradient(circle, rgba(58.99999999999999, 154.99999999999991, 250, 1) 45%, transparent 45%),
+      radial-gradient(circle, rgba(58.99999999999999, 154.99999999999991, 250, 1) 45%, transparent 45%),
+      radial-gradient(circle, rgba(58.99999999999999, 154.99999999999991, 250, 1) 45%, transparent 45%),
+      radial-gradient(circle, rgba(58.99999999999999, 154.99999999999991, 250, 1) 45%, transparent 45%),
+      radial-gradient(circle, rgba(58.99999999999999, 154.99999999999991, 250, 1) 45%, transparent 45%),
+      radial-gradient(circle, rgba(58.99999999999999, 154.99999999999991, 250, 1) 45%, transparent 45%),
+      radial-gradient(circle, rgba(58.99999999999999, 154.99999999999991, 250, 1) 45%, transparent 45%),
+      radial-gradient(circle, rgba(58.99999999999999, 154.99999999999991, 250, 1) 45%, transparent 45%),
+      radial-gradient(circle, rgba(58.99999999999999, 154.99999999999991, 250, 1) 45%, transparent 45%),
+      radial-gradient(circle, rgba(58.99999999999999, 154.99999999999991, 250, 1) 45%, transparent 45%),
+      radial-gradient(circle, rgba(58.99999999999999, 154.99999999999991, 250, 1) 45%, transparent 45%),
+      radial-gradient(circle, rgba(58.99999999999999, 154.99999999999991, 250, 1) 45%, transparent 45%),
+      radial-gradient(circle, rgba(58.99999999999999, 154.99999999999991, 250, 1) 45%, transparent 45%),
+      radial-gradient(circle, rgba(58.99999999999999, 154.99999999999991, 250, 1) 45%, transparent 45%),
+      radial-gradient(circle, rgba(58.99999999999999, 154.99999999999991, 250, 1) 45%, transparent 45%),
+      radial-gradient(circle, rgba(58.99999999999999, 154.99999999999991, 250, 1) 45%, transparent 45%),
+      radial-gradient(circle, rgba(58.99999999999999, 154.99999999999991, 250, 1) 45%, transparent 45%),
+      radial-gradient(circle, rgba(58.99999999999999, 154.99999999999991, 250, 1) 45%, transparent 45%),
+      radial-gradient(circle, rgba(58.99999999999999, 154.99999999999991, 250, 1) 45%, transparent 45%),
+      radial-gradient(circle, rgba(58.99999999999999, 154.99999999999991, 250, 1) 45%, transparent 45%),
+      radial-gradient(circle, rgba(58.99999999999999, 154.99999999999991, 250, 1) 45%, transparent 45%),
+      radial-gradient(circle, rgba(58.99999999999999, 154.99999999999991, 250, 1) 45%, transparent 45%),
+      radial-gradient(circle, rgba(58.99999999999999, 154.99999999999991, 250, 1) 45%, transparent 45%),
+      radial-gradient(circle, rgba(58.99999999999999, 154.99999999999991, 250, 1) 45%, transparent 45%),
+      radial-gradient(circle, rgba(58.99999999999999, 154.99999999999991, 250, 1) 45%, transparent 45%),
+      radial-gradient(circle, rgba(58.99999999999999, 154.99999999999991, 250, 1) 45%, transparent 45%),
+      radial-gradient(circle, rgba(58.99999999999999, 154.99999999999991, 250, 1) 45%, transparent 45%);
+} 
+@keyframes theButtonAnimation {
+  0% {
+      transform: rotateX(0deg)    ;
+      background-size: 20px 20px,19px 19px,22px 22px,21px 21px,21px 21px,17px 17px,21px 21px,21px 21px,17px 17px,18px 18px,23px 23px,16px 16px,22px 22px,22px 22px,19px 19px,17px 17px,24px 24px,18px 18px,23px 23px,22px 22px,19px 19px,24px 24px,21px 21px,20px 20px,19px 19px,22px 22px,24px 24px,18px 18px,17px 17px,18px 18px,17px 17px,18px 18px,21px 21px,18px 18px,15px 15px,15px 15px,15px 15px,16px 16px,18px 18px,18px 18px,16px 16px,17px 17px,16px 16px,17px 17px,19px 19px,15px 15px,16px 16px,15px 15px;
+      background-position: 581px 495px,581px 501px,577px 505px,575px 511px,572px 516px,570px 522px,564px 525px,559px 528px,555px 532px,549px 533px,541px 532px,539px 536px,530px 533px,524px 532px,520px 532px,516px 530px,507px 523px,506px 522px,500px 515px,497px 511px,496px 507px,491px 499px,492px 495px,492px 489px,493px 484px,493px 477px,493px 470px,499px 468px,503px 463px,506px 458px,511px 455px,515px 451px,519px 447px,526px 447px,533px 447px,539px 447px,545px 447px,550px 448px,555px 449px,560px 451px,566px 456px,570px 459px,574px 464px,577px 468px,579px 473px,583px 480px,583px 485px,584px 492px;
+  }
+  2.3% {
+      transform: rotateX(4deg)    ;
+      background-size: 5px 5px,5px 5px,6px 6px,5px 5px,5px 5px,4px 4px,5px 5px,5px 5px,4px 4px,5px 5px,6px 6px,4px 4px,6px 6px,6px 6px,5px 5px,4px 4px,6px 6px,5px 5px,6px 6px,6px 6px,5px 5px,6px 6px,5px 5px,5px 5px,5px 5px,6px 6px,6px 6px,5px 5px,4px 4px,5px 5px,4px 4px,5px 5px,5px 5px,5px 5px,4px 4px,4px 4px,4px 4px,4px 4px,5px 5px,5px 5px,4px 4px,4px 4px,4px 4px,4px 4px,5px 5px,4px 4px,4px 4px,4px 4px;
+      background-position: 632px 235px,645px 309px,604px 472px,675px 368px,626px 462px,757px 351px,722px 414px,684px 471px,788px 451px,761px 487px,630px 533px,706px 546px,794px 572px,663px 574px,578px 560px,659px 612px,555px 562px,720px 732px,601px 644px,635px 739px,570px 670px,563px 728px,528px 724px,494px 694px,486px 597px,490px 525px,446px 602px,354px 720px,360px 659px,387px 593px,472px 496px,322px 569px,431px 495px,313px 506px,357px 473px,269px 449px,279px 415px,501px 438px,428px 398px,391px 354px,498px 401px,514px 401px,521px 395px,547px 408px,478px 221px,560px 375px,572px 369px,588px 418px;
+  }
+  4.6% {
+      transform: rotateX(8deg)    ;
+      background-size: 1px 1px,1px 1px,1px 1px,1px 1px,1px 1px,1px 1px,1px 1px,1px 1px,1px 1px,1px 1px,1px 1px,1px 1px,1px 1px,1px 1px,1px 1px,1px 1px,1px 1px,1px 1px,1px 1px,1px 1px,1px 1px,1px 1px,1px 1px,1px 1px,1px 1px,1px 1px,1px 1px,1px 1px,1px 1px,1px 1px,1px 1px,1px 1px,1px 1px,1px 1px,1px 1px,1px 1px,1px 1px,1px 1px,1px 1px,1px 1px,1px 1px,1px 1px,1px 1px,1px 1px,1px 1px,1px 1px,1px 1px,1px 1px;
+      background-position: 660px 75px,682px 191px,617px 449px,733px 279px,656px 427px,867px 245px,816px 344px,756px 435px,926px 399px,886px 456px,681px 530px,806px 550px,950px 593px,745px 597px,611px 576px,743px 659px,581px 582px,847px 857px,660px 719px,716px 874px,613px 767px,603px 864px,547px 859px,493px 815px,479px 664px,486px 552px,415px 679px,264px 870px,271px 775px,314px 673px,446px 519px,203px 638px,375px 521px,182px 539px,249px 487px,104px 448px,117px 394px,468px 430px,350px 365px,287px 293px,454px 365px,477px 363px,487px 352px,527px 369px,415px 66px,544px 310px,563px 297px,589px 372px;
+  }
+  6.9% {
+      transform: rotateX(12deg)    ;
+      background-size: 0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px;
+      background-position: 676px -22px,703px 119px,624px 435px,767px 225px,673px 405px,933px 181px,871px 302px,799px 412px,1008px 368px,961px 437px,711px 528px,865px 551px,1043px 605px,793px 610px,629px 584px,793px 687px,596px 593px,922px 932px,695px 763px,764px 954px,638px 824px,627px 944px,558px 940px,491px 888px,475px 703px,483px 567px,396px 724px,209px 959px,218px 844px,269px 720px,431px 531px,131px 679px,341px 536px,102px 559px,184px 495px,5px 447px,19px 381px,449px 425px,302px 345px,223px 255px,428px 344px,455px 341px,466px 326px,514px 346px,377px -27px,534px 271px,558px 254px,589px 344px;
+  }
+  9.3% {
+      transform: rotateX(16deg)    ;
+      background-size: 0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px;
+      background-position: 686px -80px,716px 75px,628px 426px,787px 192px,683px 392px,973px 142px,904px 276px,825px 398px,1058px 348px,1006px 425px,728px 526px,900px 552px,1100px 612px,822px 617px,641px 588px,824px 704px,605px 600px,968px 976px,716px 789px,793px 1002px,653px 858px,641px 993px,565px 989px,491px 931px,473px 726px,482px 577px,384px 751px,177px 1013px,186px 886px,242px 748px,421px 539px,88px 704px,321px 545px,55px 571px,144px 500px,-56px 447px,-41px 374px,437px 422px,273px 333px,185px 233px,412px 331px,441px 327px,453px 310px,506px 331px,353px -84px,528px 247px,554px 227px,588px 327px;
+  }
+  11.6% {
+      transform: rotateX(20deg)    ;
+      background-size: 0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px;
+      background-position: 693px -117px,725px 47px,632px 419px,801px 171px,691px 383px,999px 118px,926px 260px,843px 390px,1090px 337px,1035px 419px,741px 525px,923px 554px,1135px 617px,841px 623px,649px 593px,843px 715px,611px 606px,996px 1005px,728px 807px,811px 1034px,662px 881px,649px 1024px,568px 1020px,489px 959px,470px 742px,479px 583px,375px 769px,155px 1047px,164px 912px,223px 766px,413px 544px,59px 719px,306px 550px,23px 577px,118px 502px,-94px 445px,-78px 367px,428px 418px,254px 324px,160px 217px,401px 321px,432px 317px,445px 298px,501px 321px,339px -120px,524px 230px,552px 209px,589px 314px;
+  }
+  13.9% {
+      transform: rotateX(24deg)    ;
+      background-size: 0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px;
+      background-position: 692px -137px,725px 33px,629px 417px,804px 159px,690px 377px,1009px 102px,934px 249px,848px 382px,1104px 327px,1048px 412px,745px 521px,934px 550px,1154px 615px,850px 621px,652px 590px,854px 717px,614px 604px,1014px 1017px,737px 812px,823px 1047px,670px 890px,657px 1038px,574px 1035px,492px 972px,472px 748px,482px 585px,375px 778px,147px 1066px,157px 927px,218px 777px,414px 549px,47px 730px,302px 556px,9px 585px,106px 507px,-114px 449px,-98px 368px,425px 421px,244px 324px,146px 213px,395px 321px,426px 316px,439px 296px,496px 319px,328px -137px,519px 225px,547px 202px,585px 311px;
+  }
+  16.2% {
+      transform: rotateX(28deg)    ;
+      background-size: 0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px;
+      background-position: 698px -144px,731px 30px,632px 422px,809px 159px,693px 382px,1017px 101px,940px 250px,851px 386px,1112px 329px,1054px 415px,744px 526px,936px 555px,1160px 621px,850px 626px,647px 594px,853px 722px,609px 605px,1016px 1026px,735px 817px,823px 1055px,667px 894px,654px 1045px,570px 1041px,488px 976px,468px 747px,479px 581px,370px 777px,139px 1071px,149px 929px,212px 776px,413px 543px,40px 729px,301px 551px,3px 581px,103px 503px,-121px 444px,-105px 363px,429px 418px,245px 319px,145px 207px,398px 318px,431px 313px,443px 294px,501px 319px,329px -146px,524px 223px,552px 201px,590px 312px;
+  }
+  18.6% {
+      transform: rotateX(32deg)    ;
+      background-size: 0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px;
+      background-position: 709px -152px,743px 24px,643px 422px,822px 158px,704px 384px,1031px 101px,952px 253px,861px 392px,1124px 335px,1065px 422px,749px 536px,943px 565px,1169px 632px,853px 637px,647px 604px,854px 734px,606px 616px,1017px 1041px,731px 828px,819px 1069px,660px 905px,647px 1057px,561px 1051px,477px 984px,457px 752px,468px 582px,359px 779px,125px 1075px,135px 930px,200px 775px,404px 538px,27px 724px,292px 544px,-8px 574px,94px 494px,-132px 434px,-114px 351px,428px 407px,243px 307px,143px 194px,401px 307px,434px 303px,448px 284px,508px 310px,334px -160px,532px 215px,561px 194px,600px 307px;
+  }
+  20.9% {
+      transform: rotateX(36deg)    ;
+      background-size: 0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px;
+      background-position: 719px -167px,754px 13px,654px 415px,836px 150px,717px 379px,1047px 96px,968px 250px,877px 392px,1141px 337px,1081px 426px,762px 542px,957px 573px,1183px 642px,864px 648px,655px 616px,863px 748px,611px 629px,1023px 1058px,733px 843px,820px 1086px,659px 921px,643px 1073px,555px 1067px,469px 998px,448px 763px,458px 591px,346px 788px,110px 1085px,120px 937px,184px 780px,390px 539px,11px 725px,277px 542px,-25px 570px,79px 488px,-147px 426px,-129px 342px,418px 396px,233px 295px,134px 180px,396px 293px,431px 288px,446px 269px,508px 295px,335px -177px,536px 201px,567px 180px,607px 295px;
+  }
+  23.2% {
+      transform: rotateX(40deg)    ;
+      background-size: 0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px;
+      background-position: 724px -185px,761px -4px,663px 400px,847px 136px,729px 366px,1062px 84px,984px 241px,893px 385px,1159px 332px,1099px 423px,779px 542px,974px 575px,1202px 646px,881px 654px,670px 624px,877px 758px,623px 640px,1036px 1073px,743px 859px,828px 1103px,664px 938px,647px 1091px,556px 1085px,467px 1017px,444px 780px,452px 607px,337px 803px,98px 1100px,107px 951px,170px 791px,376px 547px,-6px 732px,261px 547px,-43px 572px,61px 488px,-166px 424px,-147px 337px,403px 390px,218px 286px,120px 169px,384px 280px,420px 275px,437px 255px,502px 280px,330px -196px,533px 184px,566px 163px,609px 278px;
+  }
+  25.5% {
+      transform: rotateX(44deg)    ;
+      background-size: 0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px;
+      background-position: 724px -205px,763px -24px,667px 382px,853px 117px,737px 349px,1073px 67px,996px 226px,908px 373px,1176px 321px,1117px 414px,797px 536px,994px 572px,1222px 644px,900px 655px,688px 628px,896px 763px,640px 648px,1053px 1084px,758px 871px,842px 1118px,675px 954px,656px 1109px,562px 1104px,471px 1036px,445px 799px,451px 626px,333px 822px,91px 1119px,98px 969px,160px 808px,363px 562px,-22px 745px,245px 558px,-61px 581px,42px 494px,-186px 428px,-168px 339px,384px 389px,199px 282px,101px 163px,367px 272px,404px 264px,422px 243px,489px 265px,318px -213px,525px 166px,559px 144px,605px 259px;
+  }
+  27.9% {
+      transform: rotateX(48deg)    ;
+      background-size: 0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px;
+      background-position: 718px -226px,760px -45px,666px 361px,856px 96px,741px 329px,1081px 47px,1006px 207px,920px 356px,1191px 305px,1133px 401px,815px 525px,1013px 563px,1242px 638px,921px 651px,709px 627px,917px 765px,660px 653px,1073px 1091px,776px 881px,859px 1130px,691px 968px,670px 1125px,573px 1122px,479px 1055px,452px 819px,455px 646px,333px 843px,88px 1140px,93px 989px,153px 828px,354px 580px,-34px 762px,231px 573px,-78px 594px,24px 505px,-206px 436px,-188px 345px,363px 392px,178px 283px,80px 161px,347px 267px,385px 257px,403px 234px,473px 253px,303px -227px,512px 150px,548px 127px,595px 241px;
+  }
+  30.2% {
+      transform: rotateX(52deg)    ;
+      background-size: 0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px;
+      background-position: 708px -246px,753px -66px,662px 340px,854px 74px,741px 307px,1085px 25px,1013px 186px,930px 336px,1204px 287px,1148px 384px,832px 511px,1031px 551px,1262px 627px,942px 644px,730px 623px,939px 763px,682px 654px,1095px 1095px,797px 887px,880px 1140px,710px 980px,687px 1140px,588px 1139px,491px 1074px,462px 839px,463px 666px,337px 865px,89px 1163px,91px 1012px,149px 850px,347px 601px,-44px 782px,219px 592px,-93px 610px,7px 519px,-225px 449px,-208px 355px,343px 399px,156px 287px,57px 162px,325px 265px,363px 253px,382px 227px,453px 243px,284px -239px,495px 136px,533px 111px,582px 223px;
+  }
+  32.5% {
+      transform: rotateX(56deg)    ;
+      background-size: 0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px;
+      background-position: 696px -266px,743px -87px,655px 318px,851px 51px,740px 284px,1087px 2px,1017px 163px,938px 314px,1214px 267px,1161px 365px,848px 494px,1049px 536px,1281px 614px,962px 634px,752px 616px,962px 758px,705px 652px,1118px 1097px,820px 892px,902px 1147px,731px 990px,706px 1152px,606px 1154px,506px 1092px,475px 858px,473px 687px,344px 887px,93px 1186px,92px 1035px,148px 873px,342px 624px,-52px 804px,209px 613px,-106px 629px,-9px 536px,-242px 463px,-228px 367px,322px 409px,134px 294px,35px 166px,302px 265px,340px 251px,359px 223px,431px 235px,263px -250px,476px 123px,516px 96px,567px 206px;
+  }
+  34.8% {
+      transform: rotateX(60deg)    ;
+      background-size: 0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px;
+      background-position: 682px -285px,731px -108px,646px 296px,845px 28px,736px 260px,1087px -22px,1020px 139px,945px 292px,1224px 245px,1173px 344px,863px 476px,1066px 520px,1300px 600px,983px 621px,774px 607px,984px 751px,728px 649px,1142px 1096px,844px 895px,925px 1153px,753px 999px,727px 1164px,624px 1169px,522px 1109px,489px 877px,486px 707px,352px 909px,98px 1209px,95px 1059px,148px 896px,339px 647px,-58px 827px,200px 634px,-119px 649px,-23px 555px,-259px 480px,-247px 382px,301px 420px,112px 303px,12px 172px,278px 268px,317px 251px,336px 220px,409px 229px,241px -259px,455px 111px,497px 81px,550px 190px;
+  }
+  37.2% {
+      transform: rotateX(64deg)    ;
+      background-size: 0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px;
+      background-position: 667px -304px,718px -129px,636px 274px,838px 5px,731px 237px,1085px -46px,1021px 115px,950px 268px,1232px 222px,1184px 323px,877px 456px,1083px 502px,1318px 584px,1003px 608px,796px 597px,1007px 743px,752px 644px,1166px 1095px,868px 896px,949px 1158px,776px 1006px,749px 1174px,644px 1182px,540px 1126px,505px 895px,499px 727px,362px 931px,105px 1232px,100px 1082px,150px 921px,338px 671px,-64px 851px,192px 657px,-130px 671px,-37px 575px,-276px 498px,-265px 397px,281px 433px,90px 314px,-11px 180px,254px 272px,293px 252px,312px 219px,385px 223px,218px -267px,434px 100px,476px 68px,531px 174px;
+  }
+  39.5% {
+      transform: rotateX(68deg)    ;
+      background-size: 0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px;
+      background-position: 651px -322px,705px -149px,625px 252px,830px -18px,725px 213px,1083px -70px,1022px 91px,954px 244px,1240px 199px,1194px 300px,890px 436px,1099px 483px,1336px 567px,1022px 593px,818px 586px,1030px 734px,776px 639px,1191px 1092px,892px 897px,973px 1161px,799px 1013px,771px 1184px,665px 1195px,558px 1142px,522px 913px,514px 747px,373px 953px,113px 1255px,105px 1106px,153px 945px,337px 696px,-68px 875px,185px 681px,-141px 693px,-50px 595px,-292px 517px,-283px 414px,261px 447px,68px 325px,-34px 188px,230px 277px,268px 254px,287px 219px,361px 219px,195px -274px,411px 90px,455px 55px,512px 159px;
+  }
+  41.8% {
+      transform: rotateX(72deg)    ;
+      background-size: 0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px;
+      background-position: 634px -340px,690px -169px,614px 230px,821px -41px,719px 189px,1080px -95px,1021px 66px,958px 220px,1247px 175px,1204px 278px,903px 415px,1114px 464px,1353px 549px,1042px 578px,839px 574px,1053px 724px,800px 633px,1215px 1089px,917px 897px,997px 1165px,823px 1019px,794px 1193px,687px 1208px,577px 1157px,539px 930px,529px 766px,385px 975px,122px 1279px,111px 1130px,156px 969px,337px 720px,-72px 899px,178px 705px,-151px 715px,-63px 616px,-307px 536px,-301px 431px,241px 462px,47px 337px,-57px 197px,206px 282px,244px 257px,263px 219px,337px 215px,171px -280px,389px 80px,434px 43px,493px 144px;
+  }
+  44.1% {
+      transform: rotateX(76deg)    ;
+      background-size: 0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px;
+      background-position: 617px -358px,675px -189px,602px 209px,812px -64px,712px 165px,1077px -119px,1021px 41px,962px 195px,1254px 151px,1213px 255px,916px 394px,1130px 445px,1370px 531px,1061px 563px,861px 562px,1075px 714px,824px 626px,1240px 1085px,942px 896px,1022px 1167px,847px 1025px,817px 1202px,708px 1220px,597px 1173px,557px 948px,544px 786px,397px 996px,131px 1302px,117px 1154px,160px 994px,337px 745px,-75px 924px,172px 729px,-161px 738px,-76px 638px,-322px 556px,-318px 449px,221px 477px,25px 349px,-80px 207px,182px 288px,219px 260px,238px 220px,312px 211px,147px -287px,366px 70px,412px 31px,472px 129px;
+  }
+  46.5% {
+      transform: rotateX(80deg)    ;
+      background-size: 0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px;
+      background-position: 599px -376px,660px -208px,589px 187px,802px -87px,705px 141px,1073px -144px,1020px 16px,965px 170px,1260px 127px,1222px 232px,929px 372px,1145px 425px,1387px 513px,1081px 547px,883px 549px,1098px 704px,848px 619px,1264px 1081px,967px 896px,1047px 1170px,872px 1031px,841px 1211px,730px 1232px,616px 1188px,575px 965px,560px 805px,409px 1018px,140px 1325px,124px 1178px,164px 1018px,337px 770px,-78px 949px,166px 753px,-171px 761px,-88px 659px,-337px 576px,-335px 467px,201px 492px,4px 362px,-103px 216px,158px 294px,194px 263px,213px 221px,287px 208px,123px -293px,343px 61px,390px 19px,452px 115px;
+  }
+  48.8% {
+      transform: rotateX(84deg)    ;
+      background-size: 0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px;
+      background-position: 582px -394px,645px -228px,577px 165px,793px -110px,697px 118px,1070px -168px,1019px -9px,968px 146px,1266px 103px,1231px 208px,941px 351px,1160px 405px,1404px 495px,1100px 531px,904px 537px,1121px 693px,871px 612px,1289px 1077px,992px 895px,1072px 1172px,896px 1036px,864px 1219px,752px 1244px,636px 1203px,593px 982px,576px 824px,421px 1040px,150px 1348px,131px 1202px,168px 1043px,338px 795px,-81px 973px,160px 777px,-180px 784px,-101px 681px,-352px 596px,-353px 485px,182px 507px,-18px 374px,-126px 226px,134px 300px,170px 267px,188px 222px,263px 205px,98px -298px,320px 52px,368px 8px,432px 101px;
+  }
+  51.1% {
+      transform: rotateX(88deg)    ;
+      background-size: 0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px;
+      background-position: 564px -411px,629px -248px,564px 144px,783px -133px,690px 94px,1066px -193px,1018px -34px,971px 121px,1272px 79px,1240px 185px,954px 329px,1175px 385px,1421px 476px,1119px 515px,925px 524px,1143px 683px,895px 605px,1313px 1073px,1016px 894px,1096px 1174px,920px 1041px,888px 1228px,774px 1256px,656px 1218px,611px 999px,592px 843px,434px 1061px,159px 1371px,138px 1226px,172px 1067px,338px 820px,-84px 998px,155px 801px,-190px 807px,-113px 703px,-367px 616px,-370px 503px,162px 523px,-39px 387px,-149px 236px,110px 307px,145px 271px,163px 223px,238px 202px,74px -304px,296px 43px,346px -4px,411px 87px;
+  }
+  53.4% {
+      transform: rotateX(92deg)    ;
+      background-size: 0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px;
+      background-position: 546px -429px,614px -267px,551px 122px,773px -156px,682px 70px,1062px -218px,1017px -59px,974px 96px,1279px 55px,1249px 162px,966px 307px,1190px 365px,1438px 458px,1138px 499px,947px 511px,1166px 672px,919px 597px,1338px 1068px,1041px 893px,1121px 1176px,945px 1046px,911px 1236px,796px 1268px,676px 1233px,630px 1016px,608px 862px,446px 1083px,169px 1394px,145px 1250px,177px 1092px,339px 845px,-87px 1023px,149px 826px,-199px 830px,-125px 725px,-382px 636px,-387px 521px,143px 539px,-60px 400px,-172px 247px,85px 313px,120px 274px,138px 224px,213px 199px,50px -309px,273px 34px,324px -15px,391px 72px;
+  }
+  55.8% {
+      transform: rotateX(96deg)    ;
+      background-size: 0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px;
+      background-position: 528px -446px,598px -287px,539px 101px,763px -179px,674px 46px,1058px -242px,1016px -84px,977px 71px,1285px 30px,1258px 138px,978px 286px,1205px 345px,1455px 439px,1157px 483px,968px 498px,1188px 661px,943px 590px,1363px 1064px,1066px 892px,1146px 1178px,969px 1052px,935px 1244px,818px 1279px,696px 1248px,648px 1033px,624px 881px,459px 1104px,179px 1417px,152px 1274px,181px 1117px,340px 870px,-89px 1048px,144px 850px,-208px 853px,-137px 747px,-396px 656px,-404px 539px,123px 554px,-82px 413px,-195px 257px,61px 320px,96px 278px,113px 226px,188px 196px,25px -315px,250px 25px,302px -27px,370px 58px;
+  }
+  58.1% {
+      transform: rotateX(100deg)    ;
+      background-size: 0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px;
+      background-position: 510px -464px,582px -306px,526px 80px,753px -202px,667px 22px,1053px -267px,1014px -108px,980px 46px,1291px 6px,1266px 115px,991px 264px,1220px 325px,1472px 421px,1176px 467px,990px 485px,1211px 650px,967px 583px,1387px 1059px,1091px 891px,1171px 1180px,994px 1057px,958px 1253px,840px 1291px,716px 1263px,666px 1050px,641px 900px,471px 1126px,189px 1440px,159px 1298px,186px 1141px,341px 895px,-92px 1073px,138px 874px,-218px 877px,-149px 769px,-411px 676px,-421px 558px,104px 570px,-103px 426px,-217px 267px,37px 327px,71px 282px,88px 227px,164px 193px,1px -320px,226px 16px,280px -38px,349px 44px;
+  }
+  60.4% {
+      transform: rotateX(104deg)    ;
+      background-size: 0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px;
+      background-position: 492px -481px,567px -326px,513px 58px,744px -225px,659px -1px,1049px -292px,1013px -133px,983px 22px,1297px -18px,1275px 92px,1003px 242px,1234px 305px,1488px 402px,1195px 451px,1011px 472px,1233px 639px,991px 575px,1412px 1055px,1116px 889px,1196px 1182px,1018px 1062px,982px 1261px,862px 1303px,736px 1278px,685px 1067px,657px 919px,484px 1148px,198px 1463px,166px 1322px,190px 1166px,342px 920px,-95px 1097px,133px 899px,-227px 900px,-161px 790px,-426px 697px,-438px 576px,84px 585px,-124px 439px,-240px 277px,13px 333px,46px 286px,63px 229px,139px 190px,-23px -326px,203px 8px,257px -50px,329px 30px;
+  }
+  62.7% {
+      transform: rotateX(108deg)    ;
+      background-size: 0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px;
+      background-position: 475px -499px,551px -345px,500px 37px,734px -248px,651px -25px,1045px -316px,1012px -158px,986px -3px,1303px -42px,1284px 68px,1015px 220px,1249px 285px,1505px 384px,1215px 435px,1032px 459px,1256px 628px,1015px 568px,1436px 1050px,1141px 888px,1221px 1184px,1043px 1067px,1005px 1269px,884px 1314px,756px 1293px,703px 1084px,673px 938px,497px 1169px,208px 1486px,173px 1346px,195px 1190px,343px 945px,-97px 1122px,127px 923px,-236px 923px,-173px 812px,-440px 717px,-455px 594px,65px 601px,-146px 453px,-263px 287px,-11px 340px,22px 290px,38px 230px,114px 187px,-48px -331px,180px -1px,235px -61px,308px 16px;
+  }
+  65.1% {
+      transform: rotateX(112deg)    ;
+      background-size: 0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px;
+      background-position: 457px -516px,535px -365px,487px 15px,724px -271px,643px -49px,1041px -341px,1010px -183px,989px -28px,1309px -67px,1293px 45px,1027px 198px,1264px 265px,1522px 365px,1234px 419px,1054px 446px,1278px 617px,1039px 560px,1461px 1046px,1166px 887px,1246px 1186px,1067px 1072px,1029px 1277px,906px 1326px,776px 1308px,722px 1101px,689px 957px,509px 1191px,218px 1509px,180px 1370px,200px 1215px,344px 970px,-100px 1147px,122px 948px,-245px 946px,-185px 834px,-455px 737px,-472px 613px,45px 617px,-167px 466px,-286px 298px,-35px 347px,-3px 294px,13px 231px,89px 184px,-72px -337px,156px -10px,213px -73px,287px 2px;
+  }
+  67.4% {
+      transform: rotateX(116deg)    ;
+      background-size: 0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px;
+      background-position: 439px -534px,520px -384px,475px -6px,714px -294px,636px -73px,1037px -366px,1009px -208px,991px -53px,1314px -91px,1301px 21px,1040px 177px,1279px 245px,1539px 347px,1253px 402px,1075px 433px,1301px 606px,1062px 553px,1485px 1041px,1191px 886px,1271px 1188px,1092px 1077px,1053px 1286px,928px 1338px,796px 1323px,740px 1118px,706px 976px,522px 1212px,228px 1532px,187px 1394px,204px 1239px,345px 995px,-102px 1172px,116px 972px,-255px 970px,-197px 856px,-470px 757px,-489px 631px,26px 632px,-188px 479px,-309px 308px,-59px 353px,-28px 298px,-12px 233px,64px 181px,-97px -342px,133px -19px,191px -84px,267px -12px;
+  }
+  69.7% {
+      transform: rotateX(120deg)    ;
+      background-size: 0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px;
+      background-position: 421px -551px,504px -404px,462px -28px,704px -317px,628px -96px,1033px -390px,1008px -233px,994px -78px,1320px -115px,1310px -2px,1052px 155px,1294px 225px,1555px 328px,1272px 386px,1096px 420px,1323px 595px,1086px 546px,1510px 1037px,1216px 885px,1296px 1190px,1116px 1082px,1076px 1294px,950px 1349px,816px 1338px,758px 1135px,722px 995px,535px 1234px,238px 1555px,195px 1418px,209px 1264px,346px 1020px,-105px 1197px,111px 996px,-264px 993px,-209px 878px,-484px 778px,-506px 649px,6px 648px,-210px 492px,-331px 318px,-83px 360px,-52px 302px,-37px 234px,39px 179px,-121px -348px,109px -28px,168px -95px,246px -26px;
+  }
+  72% {
+      transform: rotateX(124deg)    ;
+      background-size: 0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px;
+      background-position: 403px -568px,488px -423px,449px -49px,694px -340px,620px -120px,1029px -415px,1007px -258px,997px -103px,1326px -140px,1319px -26px,1064px 133px,1309px 204px,1572px 310px,1291px 370px,1118px 407px,1345px 584px,1110px 538px,1535px 1032px,1241px 883px,1321px 1192px,1141px 1088px,1100px 1302px,973px 1361px,836px 1353px,777px 1151px,738px 1014px,548px 1255px,248px 1578px,202px 1442px,213px 1289px,346px 1045px,-108px 1222px,105px 1021px,-273px 1016px,-221px 900px,-499px 798px,-523px 667px,-13px 664px,-231px 505px,-354px 329px,-107px 367px,-77px 306px,-61px 236px,15px 176px,-145px -353px,86px -36px,146px -107px,225px -40px;
+  }
+  74.4% {
+      transform: rotateX(128deg)    ;
+      background-size: 0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px;
+      background-position: 385px -586px,473px -443px,436px -71px,684px -363px,612px -144px,1025px -440px,1005px -283px,1000px -127px,1332px -164px,1328px -49px,1076px 111px,1323px 184px,1589px 291px,1310px 354px,1139px 394px,1368px 574px,1134px 531px,1559px 1028px,1266px 882px,1346px 1194px,1165px 1093px,1124px 1310px,995px 1373px,857px 1368px,795px 1168px,754px 1033px,560px 1277px,257px 1601px,209px 1466px,218px 1313px,347px 1070px,-110px 1247px,100px 1045px,-282px 1039px,-233px 922px,-513px 818px,-540px 686px,-33px 679px,-252px 518px,-377px 339px,-131px 373px,-102px 310px,-86px 237px,-10px 173px,-170px -358px,63px -45px,124px -118px,204px -54px;
+  }
+  76.7% {
+      transform: rotateX(132deg)    ;
+      background-size: 0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px;
+      background-position: 367px -603px,457px -462px,423px -92px,674px -386px,604px -168px,1020px -464px,1004px -308px,1003px -152px,1338px -188px,1336px -72px,1089px 89px,1338px 164px,1605px 272px,1329px 338px,1160px 381px,1390px 563px,1158px 523px,1584px 1023px,1291px 881px,1370px 1196px,1189px 1098px,1147px 1319px,1017px 1384px,877px 1383px,814px 1185px,771px 1052px,573px 1298px,267px 1624px,216px 1490px,223px 1338px,348px 1095px,-113px 1272px,94px 1070px,-292px 1063px,-245px 944px,-528px 838px,-557px 704px,-52px 695px,-273px 531px,-400px 349px,-155px 380px,-126px 314px,-111px 239px,-35px 170px,-194px -364px,39px -54px,102px -129px,184px -68px;
+  }
+  79% {
+      transform: rotateX(136deg)    ;
+      background-size: 0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px;
+      background-position: 349px -621px,441px -482px,410px -114px,664px -409px,597px -191px,1016px -489px,1003px -333px,1005px -177px,1344px -212px,1345px -96px,1101px 68px,1353px 144px,1622px 254px,1348px 322px,1182px 368px,1413px 552px,1182px 516px,1608px 1019px,1316px 880px,1395px 1197px,1214px 1103px,1171px 1327px,1039px 1396px,897px 1398px,832px 1202px,787px 1071px,586px 1320px,277px 1647px,223px 1514px,227px 1362px,349px 1120px,-115px 1296px,89px 1094px,-301px 1086px,-257px 966px,-543px 859px,-574px 722px,-72px 711px,-295px 544px,-422px 359px,-180px 387px,-151px 318px,-136px 240px,-60px 167px,-219px -369px,16px -63px,79px -141px,163px -82px;
+  }
+  81.3% {
+      transform: rotateX(140deg)    ;
+      background-size: 0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px;
+      background-position: 331px -638px,426px -501px,397px -135px,654px -432px,589px -215px,1012px -514px,1001px -358px,1008px -202px,1350px -237px,1354px -119px,1113px 46px,1368px 124px,1639px 235px,1367px 305px,1203px 355px,1435px 541px,1206px 508px,1633px 1014px,1341px 879px,1420px 1199px,1238px 1108px,1194px 1335px,1061px 1408px,917px 1413px,850px 1219px,803px 1090px,598px 1341px,287px 1670px,230px 1538px,232px 1387px,350px 1145px,-118px 1321px,84px 1118px,-310px 1109px,-269px 988px,-557px 879px,-591px 741px,-91px 727px,-316px 557px,-445px 370px,-204px 393px,-176px 322px,-161px 242px,-85px 164px,-243px -375px,-8px -72px,57px -152px,142px -96px;
+  }
+  83.7% {
+      transform: rotateX(144deg)    ;
+      background-size: 0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px;
+      background-position: 313px -656px,410px -521px,385px -156px,644px -454px,581px -239px,1008px -538px,1000px -383px,1011px -227px,1356px -261px,1362px -143px,1125px 24px,1383px 104px,1656px 217px,1386px 289px,1224px 342px,1458px 530px,1229px 501px,1658px 1010px,1366px 877px,1445px 1201px,1263px 1113px,1218px 1343px,1083px 1419px,937px 1427px,869px 1236px,819px 1109px,611px 1363px,297px 1693px,238px 1562px,237px 1411px,351px 1170px,-121px 1346px,78px 1143px,-319px 1132px,-281px 1010px,-572px 899px,-608px 759px,-111px 742px,-337px 570px,-468px 380px,-228px 400px,-201px 325px,-186px 243px,-110px 162px,-267px -380px,-31px -80px,35px -164px,122px -110px;
+  }
+  86% {
+      transform: rotateX(148deg)    ;
+      background-size: 0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px;
+      background-position: 295px -673px,394px -540px,372px -178px,634px -477px,573px -263px,1004px -563px,999px -408px,1014px -252px,1362px -285px,1371px -166px,1138px 2px,1398px 84px,1672px 198px,1405px 273px,1246px 329px,1480px 519px,1253px 493px,1682px 1005px,1391px 876px,1470px 1203px,1287px 1118px,1242px 1352px,1105px 1431px,957px 1442px,887px 1253px,836px 1128px,624px 1384px,307px 1716px,245px 1586px,241px 1436px,352px 1195px,-123px 1371px,73px 1167px,-328px 1155px,-293px 1032px,-587px 919px,-625px 777px,-130px 758px,-359px 584px,-491px 390px,-252px 407px,-225px 329px,-211px 245px,-134px 159px,-292px -385px,-54px -89px,13px -175px,101px -124px;
+  }
+  88.3% {
+      transform: rotateX(152deg)    ;
+      background-size: 0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px;
+      background-position: 277px -690px,379px -559px,359px -199px,624px -500px,566px -286px,1000px -588px,997px -433px,1017px -276px,1368px -310px,1380px -190px,1150px -19px,1412px 64px,1689px 179px,1424px 257px,1267px 316px,1503px 508px,1277px 486px,1707px 1001px,1416px 875px,1495px 1205px,1312px 1123px,1265px 1360px,1127px 1442px,977px 1457px,906px 1270px,852px 1147px,636px 1406px,317px 1739px,252px 1609px,246px 1461px,353px 1220px,-126px 1396px,67px 1192px,-338px 1179px,-305px 1054px,-601px 940px,-642px 796px,-150px 774px,-380px 597px,-514px 400px,-276px 413px,-250px 333px,-236px 246px,-159px 156px,-316px -391px,-78px -98px,-10px -186px,80px -138px;
+  }
+  90.6% {
+      transform: rotateX(156deg)    ;
+      background-size: 0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px;
+      background-position: 260px -708px,363px -579px,346px -221px,614px -523px,558px -310px,995px -612px,996px -458px,1019px -301px,1374px -334px,1389px -213px,1162px -41px,1427px 43px,1706px 161px,1443px 241px,1289px 303px,1525px 497px,1301px 479px,1731px 996px,1441px 874px,1520px 1207px,1336px 1128px,1289px 1368px,1150px 1454px,997px 1472px,924px 1287px,868px 1166px,649px 1428px,326px 1761px,259px 1633px,250px 1485px,354px 1245px,-128px 1421px,62px 1216px,-347px 1202px,-317px 1076px,-616px 960px,-659px 814px,-169px 789px,-401px 610px,-536px 411px,-300px 420px,-275px 337px,-261px 248px,-184px 153px,-341px -396px,-101px -107px,-32px -198px,60px -152px;
+  }
+  93% {
+      transform: rotateX(160deg)    ;
+      background-size: 0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px;
+      background-position: 242px -725px,347px -598px,333px -242px,604px -546px,550px -334px,991px -637px,995px -483px,1022px -326px,1380px -358px,1397px -236px,1174px -63px,1442px 23px,1723px 142px,1462px 224px,1310px 290px,1548px 486px,1325px 471px,1756px 992px,1466px 873px,1545px 1209px,1361px 1133px,1312px 1376px,1172px 1466px,1017px 1487px,943px 1304px,884px 1185px,662px 1449px,336px 1784px,266px 1657px,255px 1510px,355px 1269px,-131px 1446px,56px 1240px,-356px 1225px,-329px 1097px,-631px 980px,-676px 832px,-188px 805px,-422px 623px,-559px 421px,-324px 427px,-299px 341px,-286px 249px,-209px 150px,-365px -402px,-125px -116px,-54px -209px,39px -166px;
+  }
+  95.3% {
+      transform: rotateX(164deg)    ;
+      background-size: 0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px;
+      background-position: 224px -743px,332px -618px,320px -264px,594px -569px,542px -358px,987px -661px,993px -508px,1025px -351px,1386px -382px,1406px -260px,1187px -85px,1457px 3px,1739px 124px,1481px 208px,1331px 277px,1570px 475px,1349px 464px,1781px 987px,1491px 871px,1570px 1211px,1385px 1139px,1336px 1384px,1194px 1477px,1037px 1502px,961px 1321px,901px 1204px,675px 1471px,346px 1807px,274px 1681px,260px 1534px,356px 1294px,-134px 1470px,51px 1265px,-365px 1248px,-341px 1119px,-645px 1001px,-693px 851px,-208px 821px,-444px 636px,-582px 431px,-348px 433px,-324px 345px,-311px 250px,-234px 147px,-389px -407px,-148px -124px,-76px -220px,18px -180px;
+  }
+  97.6% {
+      transform: rotateX(168deg)    ;
+      background-size: 0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px;
+      background-position: 206px -760px,316px -637px,308px -285px,584px -592px,535px -381px,983px -686px,992px -533px,1028px -376px,1392px -407px,1415px -283px,1199px -107px,1472px -17px,1756px 105px,1500px 192px,1353px 264px,1593px 464px,1373px 456px,1805px 983px,1516px 870px,1595px 1213px,1410px 1144px,1360px 1393px,1216px 1489px,1057px 1517px,979px 1337px,917px 1223px,687px 1492px,356px 1830px,281px 1705px,264px 1559px,357px 1319px,-136px 1495px,45px 1289px,-375px 1272px,-353px 1141px,-660px 1021px,-710px 869px,-227px 836px,-465px 649px,-605px 442px,-372px 440px,-349px 349px,-336px 252px,-259px 145px,-414px -412px,-171px -133px,-99px -232px,-3px -194px;
+  }
+  100% {
+      transform: rotateX(172deg)    ;
+      background-size: 0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px;
+      background-position: 188px -778px,300px -657px,295px -307px,574px -615px,527px -405px,979px -711px,991px -558px,1031px -401px,1398px -431px,1423px -307px,1211px -128px,1487px -37px,1773px 87px,1519px 176px,1374px 251px,1615px 453px,1396px 449px,1830px 978px,1541px 869px,1620px 1215px,1434px 1149px,1383px 1401px,1238px 1501px,1077px 1532px,998px 1354px,933px 1242px,700px 1514px,366px 1853px,288px 1729px,269px 1583px,358px 1344px,-139px 1520px,40px 1314px,-384px 1295px,-365px 1163px,-674px 1041px,-727px 887px,-247px 852px,-486px 662px,-628px 452px,-396px 447px,-373px 353px,-361px 253px,-284px 142px,-438px -418px,-195px -142px,-121px -243px,-23px -208px;
+  }} 
+.theButton.particles::after {
+  left: -471px;
+  top: -475px;
+  min-width: 1095px;
+  min-height: 1000px;
+}
+.theButton {
+  width: 150px;
+  height: 45px;
+  font-family: "Open Sans",sans-serif;
+  color: rgba(56.37930491589382, 88.64123817445838, 239.19692671442607, 1);
+  border: 1px solid;
+  border-radius: 47px;
+  box-shadow: 0px 0px 0px 5px rgba(0, 0, 0, 0), 0px 0px 0px 9px rgba(58.840029699128706, 154.92121955853696, 251.0024094179452, 0), inset 0px 0px 0px 0px rgba(0, 0, 0, 0);
+
+
+} */
+
+
+#chooseplan .cross {
+  color: red;
+}
+
+#chooseplan h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font: 900 50px 'Source Sans Pro', Arial, sans-serif; 
+  text-transform: uppercase; 
+  color: #fff; 
+  letter-spacing: -3px; 
+  position: absolute;
+  bottom: -100px;
+  width: 100%;
+
+  text-shadow:     0 1px 0 hsl(174,5%,80%),
+	                 0 2px 0 hsl(174,5%,75%),
+	                 0 3px 0 hsl(174,5%,70%),
+	                 0 4px 0 hsl(174,5%,66%),
+	                 0 5px 0 hsl(174,5%,64%),
+	                 0 6px 0 hsl(174,5%,62%),
+	                 0 7px 0 hsl(174,5%,61%),
+	                 0 8px 0 hsl(174,5%,60%),
+	
+	                 0 0 5px rgba(0,0,0,.05),
+	                0 1px 3px rgba(0,0,0,.2),
+	                0 3px 5px rgba(0,0,0,.2),
+	               0 5px 10px rgba(0,0,0,.2),
+	              0 10px 10px rgba(0,0,0,.2),
+	              0 20px 20px rgba(0,0,0,.3);
+}
+#chooseplan i {
+  color: rgb(18, 159, 18);
+  font-size: 20px;
+}
+
+#chooseplan .container{
+  height: 350px;
+  max-width: 1300px;
+  margin: auto;
+  margin-top: 250px;
+  padding: 40px;
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+#chooseplan .pricing-table{
+  background: #f1f1f1;
+  flex: 1;
+  margin: 50px;
+  margin-top: -220px;
+  text-transform: uppercase;
+  border-radius: 10px 10px 10px 10px;
+}
+
+#chooseplan .pricing-header{
+  color: #fff;
+  position: relative;
+  font-family: 'Yaldevi', sans-serif;
+  margin-bottom: 20px;
+  border-radius: 10px 10px 10px 10px;
+}
+
+#chooseplan .price{
+  font-size: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 0;
+  font-weight: bold;
+  height: 100px;
+  border-radius: 10px 10px 10px 10px;
+}
+
+#chooseplan .price span{
+  font-size: 30px;
+}
+
+#chooseplan .title{
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%,50%);
+  width: 60%;
+  max-width: 360px;
+  text-align: center;
+  padding: 8px 0;
+  font-size: 16px;
+  padding: 15px;
+  border-radius: 50px;
+  font-weight: 800;
+
+}
+
+#chooseplan .pricing-list{
+  padding: 10px 20px;
+  margin-top: 50px;
+}
+
+#chooseplan .pricing-list li{
+  list-style: none;
+  margin: 8px 0;
+  font-size: 14px;
+  color: #344;
+  text-align: center;
+}
+
+#chooseplan .border{
+  width: 80px;
+  height: 1px;
+  background: #ddd;
+  margin: auto;
+}
+
+#chooseplan .buynow{
+  display: block;
+  width: 40%;
+  margin: auto;
+  margin-top: 20px;
+  text-align: center;
+  padding: 8px 0;
+  font-size: 14px;
+  border: 1px solid;
+  max-width: 360px;
+  transition: .2s linear;
+  padding: 12px;
+  border-radius: 30px;
+}
+
+
+#chooseplan .pricing-table a:hover{
+  border-radius: 30px;
+}
+
+/* @keyframes tableHover {
+  25% {
+    transform: translate(-0.25%, -1%) scale(1.0125, 1.0125);
+  }
+  50% {
+    transform: translate(-0.5%, -0.5%) scale(1.025, 1.025);
+  }
+  75% {
+    transform: translate(-0.75%, -0.75%) scale(1.0375, 1.0375);
+  }
+  100% {
+    transform: translate(-1%, -1%) scale(1.05, 1.05);
+  }
+} */
+#chooseplan {
+  background-image: linear-gradient(to top, #edba4b , rgba(28, 30, 6, 0.5));
+}
+
+#chooseplan .table1, .table2, .table3 {
+  animation-duration: 1s;
+  transition: 0.25s;
+}
+#chooseplan .table1:hover, .table2:hover, .table3:hover {
+  box-shadow: 20px 7px 67px -28px rgba(0, 0, 0, 0.75);
+  transform: translate(-0.5%, -0.5%) scale(1.05, 1.05);
+}
+
+#chooseplan .table1 .pricing-header{
+background-image: linear-gradient(to right top, #1673ff, #0083ff, #0092fd, #019ff8, #3cabf2);
+}
+#chooseplan .table2 .pricing-header{
+  background-image: linear-gradient(to right top, #e3404e, #e14556, #df4a5d, #dd4f64, #da546b);
+
+}
+#chooseplan .table3 .pricing-header{
+background-image: linear-gradient(to right top, #ffc75f, #fecd50, #fad341, #f4da2e, #ebe212);
+}
+
+#chooseplan .table1 .title{
+background:#2C73D2;
+
+}
+#chooseplan .table2 .title{
+background:#EA6565;
+}
+#chooseplan .table3 .title{
+background:#FFC75F;
+}
+
+#chooseplan .table1 a{
+  color: #1673ff;
+}
+#chooseplan .table2 a{
+  color: #e14556;
+}
+#chooseplan .table3 a{
+  color: #ffc75f;
+}
+
+#chooseplan .table1 a:hover{
+background-image: linear-gradient(to right top, #1673ff, #0083ff, #0092fd, #019ff8, #3cabf2);
+  color: #fff;
+}
+#chooseplan .table2 a:hover{
+  background-image: linear-gradient(to right top, #e3404e, #e14556, #df4a5d, #dd4f64, #da546b);
+  color: #fff;
+}
+#chooseplan .table3 a:hover{
+background-image: linear-gradient(to right top, #ffc75f, #fecd50, #fad341, #f4da2e, #ebe212);
+  color: #fff;
+}
+
+@media screen and (max-width:780px) {
+  .pricing-table{
+    flex: 100%;
+  }
+}
+
+#chooseplan .hover {
+  --c: #d44f62; 
+  --h: 1.2em;  
+  
+  line-height: var(--h);
+  background: 
+    linear-gradient(var(--c) 0 0) no-repeat 
+    calc(200% - var(--_p,0%)) 100%/200% var(--_p,.08em);
+  color: #0000;
+  overflow: hidden;
+  text-shadow: 
+    0 calc(-1*var(--_t,0em)) var(--c), 
+    0 calc(var(--h) - var(--_t,0em)) #fff;
+  transition: .3s var(--_s,0s), background-position .3s calc(.3s - var(--_s,0s));
+}
+#chooseplan .hover:hover {
+  --_t: var(--h);
+  --_p: 100%;
+  --_s: .3s
+}
+
+#chooseplan .hover2 {
+  --c: #f0d921; 
+  --h: 1.2em;  
+  
+  line-height: var(--h);
+  background: 
+    linear-gradient(var(--c) 0 0) no-repeat 
+    calc(200% - var(--_p,0%)) 100%/200% var(--_p,.08em);
+  color: #0000;
+  overflow: hidden;
+  text-shadow: 
+    0 calc(-1*var(--_t,0em)) var(--c), 
+    0 calc(var(--h) - var(--_t,0em)) #fff;
+  transition: .3s var(--_s,0s), background-position .3s calc(.3s - var(--_s,0s));
+}
+#chooseplan .hover2:hover {
+  --_t: var(--h);
+  --_p: 100%;
+  --_s: .3s
+}
+
+
+#chooseplan .hover3 {
+  --c: #3c9ef9;
+  --h: 1.2em;  
+  
+  line-height: var(--h);
+  background: 
+    linear-gradient(var(--c) 0 0) no-repeat 
+    calc(200% - var(--_p,0%)) 100%/200% var(--_p,.08em);
+  color: #0000;
+  overflow: hidden;
+  text-shadow: 
+    0 calc(-1*var(--_t,0em)) var(--c), 
+    0 calc(var(--h) - var(--_t,0em)) #fff;
+  transition: .3s var(--_s,0s), background-position .3s calc(.3s - var(--_s,0s));
+}
+#chooseplan .hover3:hover {
+  --_t: var(--h);
+  --_p: 100%;
+  --_s: .3s
+}
+
+
+#chooseplan h3 {
+  font-size: 25px;
+  margin:0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  padding: 0 .1em;
+}
+
+/*--------------------------------------------------------------
+# Back to top button
+--------------------------------------------------------------*/
+.back-to-top {
+  position: fixed;
+  visibility: hidden;
+  opacity: 0;
+  right: 15px;
+  bottom: 15px;
+  z-index: 998;
+  background: #baa464;
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  transition: all 0.4s;
+}
+.back-to-top i {
+  font-size: 24px;
+  color: #fff;
+  line-height: 0;
+}
+.back-to-top:hover {
+  background: #4f421d;
+  color: #fff;
+}
+.back-to-top.active {
+  visibility: visible;
+  opacity: 1;
+}
+
+/*--------------------------------------------------------------
+# Disable aos animation delay on mobile devices
+--------------------------------------------------------------*/
+@media screen and (max-width: 768px) {
+  [data-aos-delay] {
+    transition-delay: 0 !important;
+  }
+}
+/*--------------------------------------------------------------
+# Header
+--------------------------------------------------------------*/
+#header {
+  transition: all 0.5s;
+  z-index: 997;
+  transition: all 0.5s;
+  padding: 24px 0;
+  background: rgba(103, 176, 209, 0.8);
+}
+#header.header-transparent {
+  background: transparent;
+}
+#header.header-scrolled {
+  background: rgba(46, 44, 44, 0.9);
+  padding: 12px;
+}
+#header .logo h1 {
+  font-size: 24px;
+  margin: 0;
+  line-height: 1;
+  font-weight: 700;
+  letter-spacing: 1px;
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+}
+#header .logo h1 a, #header .logo h1 a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+#header .logo img {
+  padding: 0;
+  margin: 0;
+  height: 62.5px;
+  width: 80px;
+  /* max-height: 40px; */
+}
+@media (max-width: 768px) {
+  #header.header-scrolled {
+    padding: 15px 0;
+  }
+}
+
+/*--------------------------------------------------------------
+# Navigation Menu
+--------------------------------------------------------------*/
+/**
+* Desktop Navigation 
+*/
+.navbar {
+  padding: 0;
+}
+.navbar ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+.navbar li {
+  position: relative;
+}
+.navbar a, .navbar a:focus {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 16px;
+  margin-left: 10px;
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  color: #fff;
+  white-space: nowrap;
+  transition: 0.3s;
+}
+.navbar a i, .navbar a:focus i {
+  font-size: 12px;
+  line-height: 0;
+  margin-left: 5px;
+}
+.navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
+  background: rgba(255, 255, 255, 0.2);
+}
+.navbar .dropdown ul {
+  display: block;
+  position: absolute;
+  left: 10px;
+  top: calc(100% + 30px);
+  margin: 0;
+  padding: 10px 0;
+  z-index: 99;
+  opacity: 0;
+  visibility: hidden;
+  background: #fff;
+  box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
+  transition: 0.3s;
+}
+.navbar .dropdown ul li {
+  min-width: 200px;
+}
+.navbar .dropdown ul a {
+  padding: 10px 20px;
+  font-size: 15px;
+  text-transform: none;
+  font-weight: 600;
+  color: #2f4d5a;
+}
+.navbar .dropdown ul a i {
+  font-size: 12px;
+}
+.navbar .dropdown ul a:hover, .navbar .dropdown ul .active:hover, .navbar .dropdown ul li:hover > a {
+  color: #67b0d1;
+}
+.navbar .dropdown:hover > ul {
+  opacity: 1;
+  top: 100%;
+  visibility: visible;
+}
+.navbar .dropdown .dropdown ul {
+  top: 0;
+  left: calc(100% - 30px);
+  visibility: hidden;
+}
+.navbar .dropdown .dropdown:hover > ul {
+  opacity: 1;
+  top: 0;
+  left: 100%;
+  visibility: visible;
+}
+@media (max-width: 1366px) {
+  .navbar .dropdown .dropdown ul {
+    left: -90%;
+  }
+  .navbar .dropdown .dropdown:hover > ul {
+    left: -100%;
+  }
+}
+
+/**
+* Mobile Navigation 
+*/
+.mobile-nav-toggle {
+  color: #fff;
+  font-size: 28px;
+  cursor: pointer;
+  display: none;
+  line-height: 0;
+  transition: 0.5s;
+}
+
+@media (max-width: 991px) {
+  .mobile-nav-toggle {
+    display: block;
+  }
+
+  .navbar ul {
+    display: none;
+  }
+}
+.navbar-mobile {
+  position: fixed;
+  overflow: hidden;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background: rgba(43, 111, 142, 0.9);
+  transition: 0.3s;
+}
+.navbar-mobile .mobile-nav-toggle {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}
+.navbar-mobile ul {
+  display: block;
+  position: absolute;
+  top: 55px;
+  right: 15px;
+  bottom: 15px;
+  left: 15px;
+  padding: 10px 0;
+  background-color: #fff;
+  overflow-y: auto;
+  transition: 0.3s;
+}
+.navbar-mobile a, .navbar-mobile a:focus {
+  padding: 10px 20px;
+  font-size: 15px;
+  color: #2f4d5a;
+}
+.navbar-mobile a:hover, .navbar-mobile .active, .navbar-mobile li:hover > a {
+  color: #67b0d1;
+}
+.navbar-mobile .getstarted, .navbar-mobile .getstarted:focus {
+  margin: 15px;
+}
+.navbar-mobile .dropdown ul {
+  position: static;
+  display: none;
+  margin: 10px 20px;
+  padding: 10px 0;
+  z-index: 99;
+  opacity: 1;
+  visibility: visible;
+  background: #fff;
+  box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
+}
+.navbar-mobile .dropdown ul li {
+  min-width: 200px;
+}
+.navbar-mobile .dropdown ul a {
+  padding: 10px 20px;
+}
+.navbar-mobile .dropdown ul a i {
+  font-size: 12px;
+}
+.navbar-mobile .dropdown ul a:hover, .navbar-mobile .dropdown ul .active:hover, .navbar-mobile .dropdown ul li:hover > a {
+  color: #67b0d1;
+}
+.navbar-mobile .dropdown > .dropdown-active {
+  display: block;
+}
+
+/*--------------------------------------------------------------
+# Hero Section
+--------------------------------------------------------------*/
+/* #hero {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(rgba(55, 142, 181, 0.5), rgba(55, 142, 181, 0.2)), url("../img/hero-bg.jpg") top center;
+  background-size: cover;
+  position: relative;
+  margin-bottom: -90px;
+} */
+#hero {
+  width: 100%;
+  height: 100vh;
+  background: url("/assets/img/banner.png") top center;
+  background-size: cover;
+  position: relative;
+  margin-bottom: -90px;
+}
+#hero .hero-container {
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+#hero h1 {
+  margin: 0 0 10px 0;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 56px;
+  text-transform: uppercase;
+  color: #f7a928;
+  text-shadow: -1px 0 2px #2f4d5a;
+}
+#hero h2 {
+  color: #f7a928;
+  margin-bottom: 50px;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: 700;
+  text-shadow: -1px 0 2px #2f4d5a;
+}
+#hero .btn-get-started {
+  font-size: 36px;
+  display: inline-block;
+  padding: 4px 0;
+  border-radius: 50px;
+  transition: 0.3s ease-in-out;
+  margin: 10px;
+  width: 64px;
+  height: 64px;
+  text-align: center;
+  border: 2px solid #fff;
+  color: #fff;
+}
+#hero .btn-get-started:hover {
+  padding-top: 8px;
+  background: rgba(255, 255, 255, 0.15);
+}
+@media (min-width: 1024px) {
+  #hero {
+    background-attachment: fixed;
+  }
+}
+@media (max-width: 768px) {
+  #hero h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+  #hero h2 {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 30px;
+  }
+}
+
+/*--------------------------------------------------------------
+# Sections General
+--------------------------------------------------------------*/
+section {
+  padding: 60px 0;
+  overflow: hidden;
+}
+
+.section-bg {
+  background-color: #f4f9fc;
+}
+
+.section-title {
+  text-align: center;
+  padding-bottom: 30px;
+}
+.section-title h2 {
+  font-size: 32px;
+  font-weight: bold;
+  position: relative;
+  margin-bottom: 30px;
+  color: #2f4d5a;
+  z-index: 2;
+}
+.section-title h2::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 122px;
+  height: 66px;
+  background: url(../img/section-title-bg.png) no-repeat;
+  z-index: -1;
+}
+.section-title p {
+  margin-bottom: 0;
+}
+
+/*--------------------------------------------------------------
+# Breadcrumbs
+--------------------------------------------------------------*/
+.breadcrumbs {
+  padding: 15px 0;
+  background-color: #f8fbfd;
+  min-height: 40px;
+}
+.breadcrumbs h2 {
+  font-size: 24px;
+  font-weight: 300;
+}
+.breadcrumbs ol {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 14px;
+}
+.breadcrumbs ol li + li {
+  padding-left: 10px;
+}
+.breadcrumbs ol li + li::before {
+  display: inline-block;
+  padding-right: 10px;
+  color: #6c757d;
+  content: "/";
+}
+@media (max-width: 768px) {
+  .breadcrumbs .d-flex {
+    display: block !important;
+  }
+  .breadcrumbs ol {
+    display: block;
+  }
+  .breadcrumbs ol li {
+    display: inline-block;
+  }
+}
+
+/*--------------------------------------------------------------
+# About
+--------------------------------------------------------------*/
+.about {
+  background: linear-gradient(rgba(247, 169, 40, 0.9), rgba(247, 169, 40, 0.9)), url("../img/about-bg.jpg") center center no-repeat;
+  background-size: cover;
+  padding: 60px 0;
+  position: relative;
+}
+.about::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: rgba(255, 255, 255, 0.75);
+  z-index: 9;
+}
+.about .container {
+  position: relative;
+  z-index: 10;
+}
+.about .content {
+  padding: 30px 30px 30px 0;
+}
+.about .content h3 {
+  font-weight: 700;
+  font-size: 34px;
+  color: #2f4d5a;
+  margin-bottom: 30px;
+}
+.about .content p {
+  margin-bottom: 30px;
+}
+.about .content .about-btn {
+  display: inline-block;
+  background: #67b0d1;
+  padding: 6px 44px 8px 30px;
+  color: #fff;
+  border-radius: 50px;
+  transition: 0.3s;
+  position: relative;
+}
+.about .content .about-btn i {
+  font-size: 18px;
+  position: absolute;
+  right: 18px;
+  top: 9px;
+}
+.about .content .about-btn:hover {
+  background: #7bbad7;
+}
+.about .icon-boxes .icon-box {
+  margin-top: 30px;
+}
+.about .icon-boxes .icon-box i {
+  font-size: 40px;
+  color: #67b0d1;
+  margin-bottom: 10px;
+}
+.about .icon-boxes .icon-box h4 {
+  font-size: 20px;
+  font-weight: 700;
+  margin: 0 0 10px 0;
+}
+.about .icon-boxes .icon-box p {
+  font-size: 15px;
+  color: #848484;
+}
+@media (max-width: 1200px) {
+  .about .content {
+    padding-right: 0;
+  }
+}
+@media (max-width: 768px) {
+  .about {
+    text-align: center;
+  }
+}
+
+/*--------------------------------------------------------------
+# Services
+--------------------------------------------------------------*/
+.services {
+  background: linear-gradient(rgba(247, 169, 40, 0.8), rgba(247, 169, 40, 0.8)) center center no-repeat;
+  background-size: cover;
+  padding: 60px 0;
+  position: relative;
+}
+.services .icon-box {
+  padding: 30px;
+  position: relative;
+  overflow: hidden;
+  background: white;
+  box-shadow: 0 0 29px 0 rgba(68, 88, 144, 0.12);
+  transition: all 0.3s ease-in-out;
+  border-radius: 8px;
+  z-index: 1;
+}
+.services .icon-box::before {
+  content: "";
+  position: absolute;
+  background: white;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  top: 100%;
+  transition: all 0.3s;
+  z-index: -1;
+}
+.services .icon-box:hover::before {
+  background: #2d2d2d;
+  top: 0;
+  border-radius: 0px;
+}
+.services .icon {
+  margin-bottom: 15px;
+}
+.services .icon i {
+  font-size: 48px;
+  line-height: 1;
+  color: rgb(35, 26, 26);
+  transition: all 0.3s ease-in-out;
+}
+.services .title {
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+.services .title a {
+  color: #111;
+}
+.services .description {
+  font-size: 15px;
+  line-height: 28px;
+  margin-bottom: 0;
+}
+.services .icon-box:hover .title a, .services .icon-box:hover .description {
+  color: #fff;
+}
+.services .icon-box:hover .icon i {
+  color: #fff;
+}
+
+/*--------------------------------------------------------------
+# Counts
+--------------------------------------------------------------*/
+.counts {
+  padding-bottom: 30px;
+}
+.counts .count-box {
+  padding: 30px;
+  width: 100%;
+}
+.counts .count-box i {
+  display: block;
+  font-size: 44px;
+  color: #67b0d1;
+  float: left;
+  line-height: 0;
+}
+.counts .count-box span {
+  font-size: 48px;
+  line-height: 40px;
+  display: block;
+  font-weight: 700;
+  color: #2f4d5a;
+  margin-left: 60px;
+}
+.counts .count-box p {
+  padding: 15px 0 0 0;
+  margin: 0 0 0 60px;
+  font-family: "Raleway", sans-serif;
+  font-size: 14px;
+  color: #49788c;
+}
+.counts .count-box a {
+  font-weight: 600;
+  display: block;
+  margin-top: 20px;
+  color: #49788c;
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+  transition: ease-in-out 0.3s;
+}
+.counts .count-box a:hover {
+  color: #6e9fb4;
+}
+
+/*--------------------------------------------------------------
+# Portfolio
+--------------------------------------------------------------*/
+.portfolio .portfolio-item {
+  margin-bottom: 30px;
+}
+.portfolio #portfolio-flters {
+  padding: 0;
+  margin: 0 auto 35px auto;
+  list-style: none;
+  text-align: center;
+  background: #ecf5f9;
+  border-radius: 50px;
+  padding: 2px 15px;
+}
+.portfolio #portfolio-flters li {
+  cursor: pointer;
+  display: inline-block;
+  padding: 10px 15px 8px 15px;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1;
+  text-transform: uppercase;
+  color: #2f4d5a;
+  margin-bottom: 5px;
+  transition: all 0.3s ease-in-out;
+}
+.portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
+  color: #67b0d1;
+}
+.portfolio #portfolio-flters li:last-child {
+  margin-right: 0;
+}
+.portfolio .portfolio-wrap {
+  transition: 0.3s;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+.portfolio .portfolio-wrap::before {
+  content: "";
+  background: rgba(255, 255, 255, 0.5);
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  transition: all ease-in-out 0.3s;
+  z-index: 2;
+  opacity: 0;
+}
+.portfolio .portfolio-wrap .portfolio-links {
+  opacity: 1;
+  left: 0;
+  right: 0;
+  bottom: -60px;
+  z-index: 3;
+  position: absolute;
+  transition: all ease-in-out 0.3s;
+  display: flex;
+  justify-content: center;
+}
+.portfolio .portfolio-wrap .portfolio-links a {
+  color: #fff;
+  font-size: 28px;
+  text-align: center;
+  background: rgba(103, 176, 209, 0.75);
+  transition: 0.3s;
+  width: 50%;
+}
+.portfolio .portfolio-wrap .portfolio-links a:hover {
+  background: rgba(103, 176, 209, 0.95);
+}
+.portfolio .portfolio-wrap .portfolio-links a + a {
+  border-left: 1px solid #8ec4dd;
+}
+.portfolio .portfolio-wrap:hover::before {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 1;
+}
+.portfolio .portfolio-wrap:hover .portfolio-links {
+  opacity: 1;
+  bottom: 0;
+}
+
+/*--------------------------------------------------------------
+# Portfolio Details
+--------------------------------------------------------------*/
+.portfolio-details {
+  padding-top: 40px;
+}
+.portfolio-details .portfolio-details-slider img {
+  width: 100%;
+}
+.portfolio-details .portfolio-details-slider .swiper-pagination {
+  margin-top: 20px;
+  position: relative;
+}
+.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+  background-color: #fff;
+  opacity: 1;
+  border: 1px solid #67b0d1;
+}
+.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
+  background-color: #67b0d1;
+}
+.portfolio-details .portfolio-info {
+  padding: 30px;
+  box-shadow: 0px 0 30px rgba(47, 77, 90, 0.08);
+}
+.portfolio-details .portfolio-info h3 {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #eee;
+}
+.portfolio-details .portfolio-info ul {
+  list-style: none;
+  padding: 0;
+  font-size: 15px;
+}
+.portfolio-details .portfolio-info ul li + li {
+  margin-top: 10px;
+}
+.portfolio-details .portfolio-description {
+  padding-top: 30px;
+}
+.portfolio-details .portfolio-description h2 {
+  font-size: 26px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.portfolio-details .portfolio-description p {
+  padding: 0;
+}
+
+/*--------------------------------------------------------------
+# Team
+--------------------------------------------------------------*/
+.team {
+  background: #f2ba4f;
+}
+.team .member {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 80px;
+  position: relative;
+}
+
+.team .member .pic {
+  overflow: hidden;
+}
+.team .member .member-info {
+  position: absolute;
+  top: 85%;
+  left: 20px;
+  right: 20px;
+  background: #fff;
+  padding: 20px 0;
+  color: #2f4d5a;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  max-height: 95px;
+  overflow: hidden;
+  transition: max-height 0.5s ease-in-out;
+}
+.team .member:hover .member-info {
+  max-height: 300px;
+}
+.team .member h4 {
+  font-weight: 700;
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #2f4d5a;
+  position: relative;
+  padding-bottom: 10px;
+}
+.team .member h4::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 50px;
+  height: 1px;
+  background: #b1cbd7;
+  bottom: 0;
+  left: calc(50% - 25px);
+}
+.team .member span {
+  font-style: italic;
+  display: block;
+  font-size: 13px;
+}
+.team .member .social {
+  margin-top: 15px;
+}
+.team .member .social a {
+  transition: color 0.3s;
+  color: #52869d;
+}
+.team .member .social a:hover {
+  color: #67b0d1;
+}
+.team .member .social i {
+  font-size: 16px;
+  margin: 0 2px;
+}
+@media (max-width: 992px) {
+  .team .member {
+    margin-bottom: 110px;
+  }
+}
+
+/*--------------------------------------------------------------
+# Contact
+--------------------------------------------------------------*/
+.contact {
+  padding-bottom: 80px;
+}
+.contact .info-box {
+  color: #444444;
+  background: #fff;
+  text-align: center;
+  box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
+  padding: 20px 0 30px 0;
+}
+.contact .info-box i {
+  font-size: 32px;
+  color: #67b0d1;
+  border-radius: 50%;
+  padding: 8px;
+  border: 2px dotted #f0f7fa;
+}
+.contact .info-box h3 {
+  font-size: 20px;
+  color: #777777;
+  font-weight: 700;
+  margin: 10px 0;
+}
+.contact .info-box p {
+  padding: 0;
+  line-height: 24px;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+.contact .php-email-form {
+  box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
+  padding: 30px;
+  background: #fff;
+}
+.contact .php-email-form .error-message {
+  display: none;
+  color: #fff;
+  background: #ed3c0d;
+  text-align: left;
+  padding: 15px;
+  font-weight: 600;
+}
+.contact .php-email-form .error-message br + br {
+  margin-top: 25px;
+}
+.contact .php-email-form .sent-message {
+  display: none;
+  color: #fff;
+  background: #18d26e;
+  text-align: center;
+  padding: 15px;
+  font-weight: 600;
+}
+.contact .php-email-form .loading {
+  display: none;
+  background: #fff;
+  text-align: center;
+  padding: 15px;
+}
+.contact .php-email-form .loading:before {
+  content: "";
+  display: inline-block;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  margin: 0 10px -6px 0;
+  border: 3px solid #18d26e;
+  border-top-color: #eee;
+  -webkit-animation: animate-loading 1s linear infinite;
+  animation: animate-loading 1s linear infinite;
+}
+.contact .php-email-form input, .contact .php-email-form textarea {
+  border-radius: 0;
+  box-shadow: none;
+  font-size: 14px;
+}
+.contact .php-email-form input::focus, .contact .php-email-form textarea::focus {
+  background-color: #67b0d1;
+}
+.contact .php-email-form input {
+  padding: 10px 15px;
+}
+.contact .php-email-form textarea {
+  padding: 12px 15px;
+}
+.contact .php-email-form button[type=submit] {
+  background: #67b0d1;
+  border: 0;
+  padding: 10px 24px;
+  color: #fff;
+  transition: 0.4s;
+}
+.contact .php-email-form button[type=submit]:hover {
+  background: #8ec4dd;
+}
+@-webkit-keyframes animate-loading {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes animate-loading {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+#footer {
+  background: #263f49;
+  padding: 0 0 30px 0;
+  color: #fff;
+  font-size: 14px;
+}
+#footer .footer-top {
+  padding: 60px 0 30px 0;
+}
+#footer .footer-top .footer-info {
+  margin-top: -90px;
+  margin-bottom: 15px;
+  background: white;
+  color: #2f4d5a;
+  border-top: 4px solid #67b0d1;
+  text-align: center;
+  padding: 30px 20px;
+}
+#footer .footer-top .footer-info h3 {
+  font-size: 24px;
+  margin: 0 0 20px 0;
+  padding: 2px 0 2px 0;
+  line-height: 1;
+  font-weight: 700;
+}
+#footer .footer-top .footer-info p {
+  font-size: 14px;
+  line-height: 24px;
+  margin-bottom: 0;
+  font-family: "Raleway", sans-serif;
+}
+#footer .footer-top .social-links a {
+  font-size: 18px;
+  display: inline-block;
+  background: #2f4d5a;
+  color: #fff;
+  line-height: 1;
+  padding: 8px 0;
+  margin-right: 4px;
+  border-radius: 50%;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  transition: 0.3s;
+}
+#footer .footer-top .social-links a:hover {
+  background: #67b0d1;
+  color: #fff;
+  text-decoration: none;
+}
+#footer .footer-top h4 {
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  position: relative;
+  padding-bottom: 12px;
+}
+#footer .footer-top .footer-links {
+  margin-bottom: 30px;
+}
+#footer .footer-top .footer-links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+#footer .footer-top .footer-links ul i {
+  padding-right: 2px;
+  color: #b5d9e9;
+  font-size: 18px;
+  line-height: 1;
+}
+#footer .footer-top .footer-links ul li {
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+}
+#footer .footer-top .footer-links ul li:first-child {
+  padding-top: 0;
+}
+#footer .footer-top .footer-links ul a {
+  color: #fff;
+  transition: 0.3s;
+  display: inline-block;
+  line-height: 1;
+}
+#footer .footer-top .footer-links ul a:hover {
+  color: #a2cfe3;
+}
+#footer .footer-top .footer-newsletter form {
+  margin-top: 30px;
+  background: #fff;
+  padding: 6px 10px;
+  position: relative;
+  border-radius: 4;
+}
+#footer .footer-top .footer-newsletter form input[type=email] {
+  border: 0;
+  padding: 4px;
+  width: calc(100% - 110px);
+}
+#footer .footer-top .footer-newsletter form input[type=submit] {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  border: 0;
+  background: none;
+  font-size: 16px;
+  padding: 0 20px;
+  background: #67b0d1;
+  color: #fff;
+  transition: 0.3s;
+  border-radius: 4;
+}
+#footer .footer-top .footer-newsletter form input[type=submit]:hover {
+  background: #409cc5;
+}
+#footer .copyright {
+  border-top: 1px solid #385b6b;
+  text-align: center;
+  padding-top: 30px;
+}
+#footer .credits {
+  padding-top: 10px;
+  text-align: center;
+  font-size: 13px;
+  color: #fff;
+}
+@media (max-width: 575px) {
+  #footer .footer-top .footer-info {
+    margin: -20px 0 30px 0;
+  }
+}
