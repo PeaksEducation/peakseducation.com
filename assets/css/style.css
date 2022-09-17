@@ -1525,7 +1525,7 @@ background-image: linear-gradient(to right top, #ffc75f, #fecd50, #fad341, #f4da
 
 .contact .php-email-form {
   box-shadow: 0 0 30px rgba(214, 215, 216, 0.1);
-  padding: 20px;
+  padding: 30px;
   background: #fff;
 }
 .contact .php-email-form .error-message {
